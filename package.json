@@ -1,0 +1,27 @@
+{
+    "name": "angular-dev-pack",
+    "displayName": "Angular Development Pack for VS Code",
+    "description": "An essential extension pack for angular development",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "publisher": "AGFAHealthcareIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/connorlufei/angular-dev-pack.git"
+    },
+    "icon": "angular-shield.png",
+    "extensionPack": [ 
+        "Angular.ng-template", 
+        "eamodio.gitlens", 
+        "EditorConfig.EditorConfig", 
+        "johnpapa.Angular2", 
+        "ms-vscode.vscode-typescript-tslint-plugin", 
+        "msjsdiag.debugger-for-chrome", 
+        "SonarSource.sonarlint-vscode"
+    ]
+}
